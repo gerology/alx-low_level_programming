@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int 0-positive_or_negative(void)
+int positive_or_negative(void)
 {
 	int n;
 
