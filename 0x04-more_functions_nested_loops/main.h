@@ -8,4 +8,7 @@ int _putchar(char c);
 int main(void);
 
 int _isdigit(int c);
+
+int mul(int a, int b);
+
 #endif
