@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- *description - print alphabet 10 times
- *
- * print_alphabet_x10 - enty point
+ * print_alphabet_x10 - print alphabet 10 times
  *
  * return: void
  */
