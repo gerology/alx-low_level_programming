@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _islower - checks for lowercase
@@ -18,5 +18,4 @@ int _islower(int c)
 		return (0);
 	}
 }
-Footer
 
