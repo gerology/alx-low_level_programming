@@ -15,9 +15,7 @@ void _puts(char *str)
 	while (str[i] != '\0')
 
 	{
-		put(str[i]);
+		_puts(str[i]);
 		i++;
 	}
-
-	return (void);
 }
