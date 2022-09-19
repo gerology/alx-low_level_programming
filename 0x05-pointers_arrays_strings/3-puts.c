@@ -10,8 +10,7 @@
 
 void _puts(char *str)
 {
-	char str = "i will make it";
-	int i;
+	int i = 0;
 
 	while (str[i] != '\0')
 
@@ -19,4 +18,6 @@ void _puts(char *str)
 		_putchar(str[i]);
 		i++;
 	}
+
+	_putchar('\n');
 }
