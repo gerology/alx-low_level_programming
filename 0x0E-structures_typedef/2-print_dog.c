@@ -9,7 +9,7 @@
 
 void print_dog(struct dog *d)
 {
-	char *msg = "nil";
+	char *msg = "(nil)";
 
 	if (d != NULL)
 	{
