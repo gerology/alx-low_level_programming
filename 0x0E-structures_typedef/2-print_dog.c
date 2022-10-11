@@ -23,7 +23,7 @@ void print_dog(struct dog *d)
 		if (d->owner == NULL)
 			printf("Owner: %s\n", msg);
 		else
-			printf("owner: %s\n", d->owner);
+			printf("Owner: %s\n", d->owner);
 
 	}
 }
