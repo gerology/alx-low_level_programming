@@ -1,6 +1,7 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 int _putchar(char c);
+
 /**
  * struct dog - defines a new type
  *
@@ -8,6 +9,7 @@ int _putchar(char c);
  * @age: dog's age
  * @owner: dog's owner
  */
+
 struct dog
 {
 	char *name;
@@ -24,5 +26,7 @@ void print_dog(struct dog *d);
 typedef struct dog dog_t;
 
 dog_t *new_dog(char *name, float age, char *owner);
+
+void free_dog(dog_t *d);
 
 #endif/*!DOG_H*/
