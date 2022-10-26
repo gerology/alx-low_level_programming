@@ -4,9 +4,8 @@
 
 /**
  * listint_len - returns the number of elements in a list
- *
  * @h: pointer to the first address of linked list
- * @noe: return value
+ *
  * Return: number of elements
  */
 size_t listint_len(const listint_t *h)
