@@ -7,7 +7,7 @@
  *
  * @h: pointer to the first address of linked list
  * @noe: return value
- * Reurn: number of elements
+ * Return: number of elements
  */
 size_t listint_len(const listint_t *h)
 {
