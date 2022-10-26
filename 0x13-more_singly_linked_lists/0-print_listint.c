@@ -13,19 +13,16 @@ size_t print_listint(const listint_t *h)
 {
 	int i = 0;
 
-	const listint_t *out = NULL;
 
 	if (h == NULL)
 	{
 		printf("Empty list");
-		h = out;
 	}
-	out = h;
-	while (out != NULL)
+	while (h != NULL)
 	{
-		printf("%d\n", out->n);
+		printf("%d\n", h->n);
 		++i;
-		out = out->next;
+		h = h->next;
 	}
 	return (i);
 }
