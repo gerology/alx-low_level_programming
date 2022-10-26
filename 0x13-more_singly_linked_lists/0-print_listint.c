@@ -3,7 +3,7 @@
 /**
  * print_listint - prints the elements of a list
  *
- * @h: pointer to the start addresss of the list
+ * @head: pointer to the start addresss of the list
  *
  * Return: number of nodes
  */
