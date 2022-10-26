@@ -4,9 +4,9 @@
 /**
  * print_listint - prints the elements of a list
  *
- * @head: pointer to the start addresss of the list
+ * @h: pointer to the start addresss of the list
  *
- * Return: number of nodes
+ * Return: number of nodes, 0 if empty
  */
 
 size_t print_listint(const listint_t *h)
