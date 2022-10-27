@@ -13,6 +13,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int conv = 0;
 	int i = 0;
 	unsigned int len, base = 1;
+
 	len = strlen(b);
 
 	if (b == NULL)
@@ -21,11 +22,10 @@ unsigned int binary_to_uint(const char *b)
 	{
 		for (i = (len - 1); i >= 0; i--)
 		{
-			if (b[i] == '1') conv += base;
+			if (b[i] == '1')
+				conv += base;
 			base *= 2;
 		}
 	}
 	return (conv);
-
-
 }
