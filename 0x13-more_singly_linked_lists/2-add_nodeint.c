@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * add_nodeint - adds a node at the beginning of a linked list
  *
@@ -20,9 +20,9 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	{
 		return (NULL);
 	}
-
+	if (tmp == NULL)
+		return (NULL);
 	tmp->next = *head;
 	*head = tmp;
 	return (tmp);
-
 }
