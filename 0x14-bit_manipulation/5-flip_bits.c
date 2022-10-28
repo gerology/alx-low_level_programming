@@ -21,7 +21,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 		if (k != l)
 			sum += 1;
-		continue;
 	}
 	return (sum);
 
