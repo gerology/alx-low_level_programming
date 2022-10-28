@@ -6,6 +6,7 @@
  * @n: given set of numbers
  * @index: point in set of numbers to set 1
  *
+ * Return: 1 if success, -1 if failed
  */
 
 int set_bit(unsigned long int *n, unsigned int index)
