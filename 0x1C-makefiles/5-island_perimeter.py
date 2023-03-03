@@ -1,13 +1,18 @@
 #!/usr/bin/python3
+""" return the perimeter of the island on the given grid"""
+
 
 def island_perimeter(grid):
     """Return the perimiter of an island.
-    0 and 1 represents water zone and land zone respectively.
-    Args:
+
+        0 and 1 represents water zone and land zone respectively.
+
+        Args:
         grid (list): A list of list of integers representing an island.
-    Returns:
+        Returns:
         The perimeter of the island defined in grid.
     """
+
     width = len(grid[0])
     height = len(grid)
     edges = 0
