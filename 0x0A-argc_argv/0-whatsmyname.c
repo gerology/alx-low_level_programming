@@ -3,9 +3,9 @@
 /**
  * main - print the name of this program
  *
- * @argc - number of arguments passed
- * @argv - an array of pointers to arguments
- * 
+ * @argc: - number of arguments passed
+ * @argv: - an array of pointers to arguments
+ *
  * Return: Always 0
  */
 
