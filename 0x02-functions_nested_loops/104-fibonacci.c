@@ -22,7 +22,7 @@ int main(void)
 		c++;
 	}
 
-	for (i = 0; i < 98; i++)
+	for (i = 0; i < 92; i++)
 	{
 		printf("%lu, ", fib[i]);
 	}
