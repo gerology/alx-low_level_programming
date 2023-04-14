@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	int coin;
-        int cent;
+	int cent;
 
 	if (argc != 2)
 	{
@@ -34,18 +34,18 @@ int main(int argc, char *argv[])
 
 		if ((cent - 10) >= 0)
 		{
-			cent-= 10;
+			cent -= 10;
 		}
 		if ((cent - 5) >= 0)
-                {
-                        cent -= 5;
-                        continue;
-                }
+		{
+			cent -= 5;
+			continue;
+		}
 		if ((cent - 2) >= 0)
-                {
-                        cent -= 2;
-                        continue;
-                }
+		{
+			cent -= 2;
+			continue;
+		}
 		cent--;
 
 	}
