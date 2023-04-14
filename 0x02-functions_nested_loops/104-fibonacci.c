@@ -12,8 +12,8 @@ int main(void)
 {
 	int c = 2, i;
 	unsigned long fib[98];
-	fib[0] = 0;
-	fib[1] = 1;
+	fib[0] = 1;
+	fib[1] = 2;
 
 	while (c <= 92)
 	{
