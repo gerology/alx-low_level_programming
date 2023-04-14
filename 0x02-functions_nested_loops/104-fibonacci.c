@@ -11,7 +11,7 @@
 int main(void)
 {
 	int c = 2, i;
-	unsigned long fib[100];
+	unsigned long fib[99];
 
 	fib[0] = 1;
 	fib[1] = 2;
@@ -22,7 +22,7 @@ int main(void)
 		c++;
 	}
 
-	for (i = 0; i < 100; i++)
+	for (i = 0; i < 99; i++)
 	{
 		printf("%lu, ", fib[i]);
 	}
