@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * size_t print_dlistint - print all elements of dlistint_t list
+ * print_dlistint - print all elements of dlistint_t list
  *
  * @dlistint_t: list to be printed from
  *@h: head pointer
@@ -12,13 +12,14 @@
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t node = 0;
+	
 	while (h)
 	{
-		printf("%d\n", h->n );
+		printf("%d\n", h->n);
 		++node;
 		h = h->next;
 	}
 
 	return (node);
-	
+
 }
