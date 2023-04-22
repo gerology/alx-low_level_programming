@@ -3,8 +3,7 @@
 /**
  * print_dlistint - print all elements of dlistint_t list
  *
- * @dlistint_t: list to be printed from
- *@h: head pointer
+ * @h: head pointer
  *
  * Return: number of node
  */
