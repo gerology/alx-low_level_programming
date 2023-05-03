@@ -5,7 +5,7 @@
 /**
  * add_node_end - adds node at the end of list
  *
- * @h: head pointer
+ * @head: head pointer
  * @str: malloc'ed string
  *
  * Return: address of new element, or NULL if failed
@@ -34,7 +34,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 
 	for (n = 0; str[n];)
-                n++;
+		n++;
 
 	nd->str = copy;
 	nd->len = n;
