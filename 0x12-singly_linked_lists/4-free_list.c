@@ -6,7 +6,6 @@
  *
  * @head: head pointer to list
  *
- * Return: void
  */
 
 void free_list(list_t *head)
@@ -18,9 +17,6 @@ void free_list(list_t *head)
 		tmp = head->next;
 		free(head->str);
 
-		if (head->str == NULL)
-			free(head);
-		
 		free(head);
 		head = tmp;
 	}
