@@ -8,6 +8,6 @@ void __attribute__((constructor)) autoprint(void);
 
 void autoprint(void)
 {
-	printf("You're beat! and yet, you must allow,\n \
+	printf("You're beat! and yet, you must allow,\n\
 			I bore my house upon my back!\n");
 }
