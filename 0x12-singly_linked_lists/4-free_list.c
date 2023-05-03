@@ -19,7 +19,7 @@ void free_list(list_t *head)
 		free(head->str);
 
 		if (head->str == NULL)
-			continue;
+			free(head);
 		
 		free(head);
 		head = tmp;
