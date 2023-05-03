@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	copy_file_to_file(argv[1], argv[2]);
+	copy_file_to_file(char argv[1], char argv[2]);
 
 	return (0);
 }
