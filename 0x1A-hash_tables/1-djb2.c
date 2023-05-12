@@ -5,7 +5,7 @@
  *
  * @str: string
  *
- * Return 0 if successfull and 1 if failed
+ * Return: 0 if successfull and 1 if failed
  *
  */
 
