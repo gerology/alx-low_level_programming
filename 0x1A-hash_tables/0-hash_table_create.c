@@ -22,11 +22,11 @@ hash_table_t *hash_table_create(unsigned long int size)
 	ptr->size = size;
 	ptr->array = malloc(sizeof(hash_table_t) * size);
 
-	if (ptr -> arry == NULL)
+	if (ptr -> array == NULL)
 		return (NULL);
 
-	for (g = 0; i < size; i++)
-		ptr->array[i] = NULL;
+	for (g = 0; g < size; g++)
+		ptr->array[g] = NULL;
 
 	return (ptr);
 }
