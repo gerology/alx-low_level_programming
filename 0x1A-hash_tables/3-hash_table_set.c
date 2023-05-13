@@ -6,7 +6,7 @@
  * @key: this is a key that is not empty
  * @value: associated with key
  *
- * Return 1 if succeeded, 0 otherwise
+ * Return: 1 if succeeded, 0 otherwise
  *
  */
 
