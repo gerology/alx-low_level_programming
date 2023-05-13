@@ -14,8 +14,8 @@
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long index, i;
-	char * value;
-	
+	char * value = "";
+
 	if (ht == NULL || *key == '\0' || key == NULL)
 		return (NULL);
 
